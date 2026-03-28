@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Training / outputs (train_ppo and experiment folders)
+ppo_two_block*/
+compare_results/
+runs/
+tb_logs/
+
+# OS
+.DS_Store
+Thumbs.db
